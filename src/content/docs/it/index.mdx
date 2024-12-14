@@ -1,0 +1,32 @@
+---
+title: Benvenuto in DnDumb!
+description: DnDumb è un luogo dove troverai guide, riferimenti e altro per rendere D&D il più stupido possibile!
+template: splash
+hero:
+  tagline: DnDumb è un luogo dove troverai guide, riferimenti e altro per rendere D&D il più stupido possibile!
+  image:
+    file: ../../../assets/houston.webp
+---
+
+import { CardGrid } from "@astrojs/starlight/components";
+import ActualLinkCard from "../../../components/ActualLinkCard.astro";
+
+## Our Guides
+
+<br />
+
+<CardGrid stagger>
+  <ActualLinkCard title="Homebrew" icon="pencil" href="/it/homebrew">
+    Nuovi contenuti per le tue sessioni di D&D, adatti a tutti!
+  </ActualLinkCard>
+  <ActualLinkCard
+    title="Homebrew, but NSFW"
+    icon="seti:ignored"
+    href={"/it/homebrew-nsfw"}
+  >
+    Nuovi contenuti per le tue sessioni di D&D, ma potrebbero <u>NON</u> essere
+    adatti a tutti!
+  </ActualLinkCard>
+</CardGrid>
+
+<script src="/scripts/actual-link-card.js" />

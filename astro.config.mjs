@@ -14,6 +14,17 @@ export default defineConfig({
         // Relative path to your custom CSS file
         "./src/styles/custom.css",
       ],
+      defaultLocale: "root",
+      locales: {
+        root: {
+          label: "English",
+          lang: "en",
+        },
+        it: {
+          label: "Italiano",
+          lang: "it",
+        },
+      },
       sidebar: [
         {
           label: "Homebrew",
