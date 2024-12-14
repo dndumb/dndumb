@@ -20,7 +20,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             {
-              label: "Getting Started",
+              label: "DnDumb Homebrew",
               link: "/homebrew",
             },
             {
@@ -54,9 +54,33 @@ export default defineConfig({
           collapsed: true,
           items: [
             {
-              label: "Getting Started",
+              label: "DnDumb Homebrew NSFW",
               link: "/homebrew-nsfw",
             },
+            {
+              label: "Feats",
+              autogenerate: {
+                directory: "homebrew-nsfw/feats",
+              },
+            },
+            {
+              label: "Spells",
+              autogenerate: {
+                directory: "homebrew-nsfw/spells",
+              },
+            },
+            /*{
+              label: "Weapons",
+              autogenerate: {
+                directory: "homebrew-nsfw/weapons",
+              },
+            },*/
+            /*{
+              label: "Magic Items",
+              autogenerate: {
+                directory: "homebrew-nsfw/magic-items",
+              },
+            },*/
           ],
         },
       ],

@@ -1,11 +1,11 @@
 ---
-title: Getting started
-description: A guide in my new Starlight docs site.
+title: DNDumb Homebrew NSFW
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+**Welcome to DnDumb NSFW!**
 
-## Further reading
+Adventurers beware! This corner of **DnDumb** dives into the **NSFW** side of homebrew—a collection of wild, raunchy, and utterly ridiculous content that’s absolutely **not official** and definitely **not for everyone**.
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+This material is meant to add an *extra spicy* layer of chaos to your campaigns, but be warned: it’s unapologetically over-the-top and might include themes that could be offensive to some. If you’re easily shocked, this probably isn’t the tavern for you—but if you’re here for absurd laughs and absurdity, then pull up a chair and enjoy the madness!
+
+*(P.S. Please remember to keep things respectful at the table—fun for all is still the ultimate goal!)*
