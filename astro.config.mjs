@@ -39,11 +39,17 @@ export default defineConfig({
               autogenerate: {
                 directory: "homebrew/feats",
               },
+              translations: {
+                it: "Talenti",
+              },
             },
             {
               label: "Spells",
               autogenerate: {
                 directory: "homebrew/spells",
+              },
+              translations: {
+                it: "Incantesimi",
               },
             },
             {
@@ -51,11 +57,26 @@ export default defineConfig({
               autogenerate: {
                 directory: "homebrew/weapons",
               },
+              translations: {
+                it: "Armi",
+              },
+            },
+            {
+              label: "Items",
+              autogenerate: {
+                directory: "homebrew/items",
+              },
+              translations: {
+                it: "Oggetti",
+              },
             },
             {
               label: "Magic Items",
               autogenerate: {
                 directory: "homebrew/magic-items",
+              },
+              translations: {
+                it: "Oggetti Magici",
               },
             },
           ],
@@ -73,11 +94,17 @@ export default defineConfig({
               autogenerate: {
                 directory: "homebrew-nsfw/feats",
               },
+              translations: {
+                it: "Talenti",
+              },
             },
             {
               label: "Spells",
               autogenerate: {
                 directory: "homebrew-nsfw/spells",
+              },
+              translations: {
+                it: "Incantesimi",
               },
             },
             /*{
@@ -85,11 +112,17 @@ export default defineConfig({
               autogenerate: {
                 directory: "homebrew-nsfw/weapons",
               },
+              translations: {
+                it: "Armi",
+              },
             },*/
             /*{
               label: "Magic Items",
               autogenerate: {
                 directory: "homebrew-nsfw/magic-items",
+              },
+              translations: {
+                it: "Oggetti Magici",
               },
             },*/
           ],
