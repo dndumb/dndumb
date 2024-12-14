@@ -1,0 +1,8 @@
+const allCards = document.querySelectorAll("article.actual-link-card");
+
+allCards.forEach((c) => {
+  c.addEventListener("click", () => {
+    const href = c.getAttribute("data-href");
+    window.location.href = href;
+  });
+});
