@@ -2,11 +2,11 @@
 title: Pontius Pilate's Basin
 ---
 
-*Wondrous Item (requires attunement)*
+*Wondrous Item, Artifact (requires attunement)*
 
 ---
 
-**Pontius Pilate's Basin** is a small cup that the owner can used to wash their hands.
+**Pontius Pilate's Basin** is a small cup that the owner can use to wash their hands.
 
 Using an action, you can place the Basin on a flat surface, put your fingers inside the Basin and mimic the act of washing your hands. 
 

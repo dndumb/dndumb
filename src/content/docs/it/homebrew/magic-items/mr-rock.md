@@ -2,7 +2,7 @@
 title: Signor Sasso
 ---
 
-*Oggetto Meraviglioso (Richiede Sintonia)*
+*Oggetto Meraviglioso, Comune (Richiede Sintonia)*
 
 ---
 

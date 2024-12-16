@@ -2,7 +2,7 @@
 title: Mr. Rock
 ---
 
-*Wondrous Item (Requires Attunement)*
+*Wondrous Item, Common (Requires Attunement)*
 
 ---
 
