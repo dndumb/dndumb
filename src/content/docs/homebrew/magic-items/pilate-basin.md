@@ -6,28 +6,27 @@ title: Pontius Pilate's Basin
 
 ---
 
-**Pontius Pilate's Basin** is a small cup that the owner can use to wash their hands.
+**Pontius Pilate's Basin** is a small, magical cup that allows its owner to symbolically wash their hands of responsibility.
 
-Using an action, you can place the Basin on a flat surface, put your fingers inside the Basin and mimic the act of washing your hands. 
+---
 
-The Basin will magically fill with water that can't be removed from it (neither by drinking, spilling, siphoning, or whatever means your perverse minds can come up with).
+### Usage
 
-When you remove your hands from the water and dry them, you can declare a responsibility that you do not want to assume.
+As an action, you can place the Basin on a flat surface, put your fingers inside it, and mimic the act of washing your hands. The Basin will magically fill with water that **cannot be removed**—it cannot be drunk, spilled, siphoned, or extracted by any means, regardless of your players' ingenuity.
 
-When you do, the water will disappear from the Basin, and nobody in any plane of existence will ever be able to give you responsibility for that thing for as long as you are attuned to the Basin.
+Once you remove your hands from the water and dry them, you can declare a **responsibility** that you do not want to assume. When you do this, the water vanishes, and no creature on any plane of existence can impose that responsibility upon you for as long as you remain attuned to the Basin.
 
 ---
 
 ### Properties
 
-Whenever you use the Basin, roll a D6. 
+Each time you use the Basin, roll a **d6**.  
+- On a result of **1**, the Basin shatters into dust, and all its effects end immediately.  
 
-On a 1, the Basin pulverizes and all its effects immediately end.
+---
 
---- 
+### Examples of Use
 
-### Examples
+- **Avoiding Duties**: Every Thursday, it’s your turn to clean the party’s toilet. Use the Basin to decline this stinky task. The rest of the party will adjust their cleaning schedule to compensate for your absence without questioning or finding anything unusual.  
 
-- Every thursday, it's your turn to clean the party's toilet. You can use the Basin to decline this stinky job, and the rest of the party will adjust their turns to compensate for your absence, and never find anything weird with it.
-
-- Oops, you have just "accidentally" killed a guard, and his fellow soldiers have seen you. Just a few seconds before the arrest, you can use the Basin, and you will walk away as an innocent man, while the guards begin interrogating everyone else to solve the "mysterious" murder.
+- **Escaping Consequences**: You’ve just “accidentally” killed a guard, and his fellow soldiers witnessed the act. A few seconds before your arrest, you can use the Basin. The guards will no longer suspect you and will instead interrogate everyone else, attempting to solve the “mysterious” murder.  
