@@ -151,20 +151,23 @@
     font-style: normal;
 }
 
-/* Dark mode colors. */
 :root {
     --sl-content-width: 55rem;
 
     --HB_Color_Background: #EEE5CE;
-    --HB_Color_Accent: #31322a;
+    --HB_Color_Accent: #E0E5C1;
     --HB_Color_HeaderUnderline: #C0AD6A;
     --HB_Color_HorizontalRule: #9C2B1B;
-    --HB_Color_HeaderText: #E0E5C1;
+    --HB_Color_HeaderText: #58180D;
     --HB_Color_MonsterStatBackground: #F2E5B5;
     --HB_Color_CaptionText: #766649;
     --HB_Color_WatercolorStain: #BBAD82;
     --HB_Color_Footnotes: #C9AD6A;
+    --TOC: 'include';
+}
 
+/* Dark mode colors. */
+:root {
 	--sl-color-accent-low: #321e1a;
 	--sl-color-accent: #995345;
 	--sl-color-accent-high: #ddc1bc;
@@ -180,18 +183,6 @@
 
 /* Light mode colors. */
 :root[data-theme='light'] {
-    --sl-content-width: 55rem;
-
-    --HB_Color_Background: #EEE5CE;
-    --HB_Color_Accent: #E0E5C1;
-    --HB_Color_HeaderUnderline: #C0AD6A;
-    --HB_Color_HorizontalRule: #9C2B1B;
-    --HB_Color_HeaderText: #58180D;
-    --HB_Color_MonsterStatBackground: #F2E5B5;
-    --HB_Color_CaptionText: #766649;
-    --HB_Color_WatercolorStain: #BBAD82;
-    --HB_Color_Footnotes: #C9AD6A;
-
 	--sl-color-accent-low: #e6d2cd;
 	--sl-color-accent: #9b5547;
 	--sl-color-accent-high: #482922;
@@ -218,26 +209,26 @@ h1{
     font-family: 'MrEavesRemake' !important;
     color: var(--HB_Color_HeaderText) !important;
     font-weight: normal !important;
-    padding-top: 1rem;
+    padding-top: 4rem;
 }
 h2{
     font-family: 'MrEavesRemake' !important;
     color: var(--HB_Color_HeaderText) !important;
     font-weight: normal !important;
-    padding-top: 0.75rem;
+    padding-top: 3.5rem;
 }
 h3{
     font-family: 'MrEavesRemake' !important;
     color: var(--HB_Color_HeaderText) !important;
     font-weight: normal !important;
     border-bottom: 1px solid var(--HB_Color_HeaderUnderline);
-    padding-top: 0.5rem;
+    padding-top: 3rem;
 }
 h4 {
     font-family: 'MrEavesRemake' !important;
     color: var(--HB_Color_HeaderText) !important;
     font-weight: normal !important;
-    padding-top: 0.25rem;
+    padding-top: 1.5rem;
 }
 h5{
     font-family: 'ScalySansSmallCapsRemake';
@@ -245,12 +236,9 @@ h5{
     line-height: .951em;
 }
 
-:root[data-theme='light'] body{
+body{
     background-image: url('/images/parchmentBackground.jpg');
     color: #000;
-}
-
-body{
     font-family: 'BookInsanityRemake';
     text-rendering: optimizeLegibility;
 }
