@@ -5,12 +5,11 @@ title: Magic Grapes
 
 Magic Grapes look like normal grapes, but their surface is translucent and inside they shine with colored lights that move like small sparks. When you hold them in your hand, they release a light luminescence and a sweet and spicy aroma reminiscent of honey and pink pepper.
 
-## Mechanics for Magical Effects
+### Mechanics for Magical Effects
 When a character eats a grape, roll a d20. If the result is less than 5, the grape triggers a random magical effect.
 The player then rolls a d100 to determine which effect occurs.
-:
-## Effects
 
+### Effects
 | d100 | Effect |
 |:-----:|:--------------------- |
 | 01 | Your hair becomes rainbow-colored and shiny for 24 hours. |

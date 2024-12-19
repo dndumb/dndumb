@@ -6,12 +6,11 @@ title: Magic Grapes
 
 Gli Acini d'Uva Magici sembrano normali acini, ma la loro superficie è traslucida e al loro interno brillano luci colorate che si muovono come piccole scintille. Quando li tieni in mano, rilasciano una leggera luminescenza e un aroma dolce e speziato che ricorda il miele e il pepe rosa.
 
-## Meccanica per gli Effetti Magici
+### Meccanica per gli Effetti Magici
 Quando un personaggio mangia un acino, deve tirare un d20, Se il risultato del tiro è inferiore a 5, l'acino scatena un effetto magico casuale.
 il giocatore quindi Tirerà un d100 per determinare quale effetto si verifica.
-:
-## Effetti
 
+### Effetti
 |  d100 | Effetto               |
 |:-----:|:--------------------- |
 |  01   | I tuoi capelli diventano arcobaleno e luccicanti per 24 ore. |
