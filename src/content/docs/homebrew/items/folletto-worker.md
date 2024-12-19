@@ -1,87 +1,74 @@
 ---
-title: Stand Folletto
+title: Folletto Stand
 ---
 
-*Mercato magico, comune (attenzione i suoi dipendenti possono bussare alla vostra porta)*
+*Magical market, common (beware its employees may knock on your door)*
 
 <img src="https://cdn.leonardo.ai/users/e9df9e5e-8c47-4d7f-87b3-195ea30587b1/generations/0b304a0d-efc7-4a7c-9c88-8ab7973f71db/Leonardo_Phoenix_09_A_lively_and_messy_stall_made_of_carved_wo_0.jpg" alt="drawing" width="325"/>
 
-La Bancarella della Folletto è una curiosa attrazione del mercato di qualsiasi grande città o villaggio dove la magia si intreccia con la vita quotidiana. Gestita da un enigmatico venditore — solitamente un mezz'elfo dall’aspetto impeccabile, con una parlantina rapida e un sorriso disarmante — la bancarella offre non oggetti, ma veri e propri folletti magici in grado di aiutare in ogni lavoro domestico o manuale.
+The Folletto Stand is a curious market attraction in any large city or village where magic intertwines with everyday life. Run by an enigmatic vendor—usually a well-groomed half-elf with a quick tongue and a disarming smile—the stall offers not objects, but actual magical sprites that can help with any household or manual task.
 
-{{descriptive
-##### Il motto del venditore è
-*Perché sforzarsi, quando la magia può fare tutto per voi?*
-}}
+##### The vendor’s motto is
+*Why bother when magic can do it all for you?*
 
-L’aspetto della bancarella è tanto accattivante quanto caotico. Realizzata in legno intagliato e decorata con motivi floreali, è adornata da minuscole luci fatate che fluttuano pigramente. Il bancone è ricoperto da piccole bottiglie di polvere fatata, contratti miniaturizzati e gadget magici. Sopra tutto troneggia un’insegna animata che si illumina a intermittenza, raffigurando una fila di folletti intenti a spazzare, martellare e lavare piatti.
+The stall’s appearance is as captivating as it is chaotic. Made of carved wood and decorated with floral motifs, it is adorned with tiny fairy lights that float lazily. The counter is covered with small bottles of fairy dust, miniature contracts, and magical gadgets. Above it all is an animated sign that lights up intermittently, depicting a row of sprites busy sweeping, hammering, and washing dishes.
 
+### The Sprites of the Sprite
+The sprites sold at the stall are tiny creatures about a foot tall, with transparent dragonfly-like wings and large, glittering eyes. Each pixie is dressed in a customizable uniform that varies based on the type of work they have been "programmed" to do.
 
+#### House Pixie
+Specializes in cleaning, washing, and tidying up.
+They can clean an entire room in a few minutes using magic dust to remove stains or stubborn dirt.
+They have a small brush for a tail and an apron.
 
-### I Folletti della Folletto
-I folletti venduti alla bancarella sono minuscole creature alte circa 30 cm, dalle ali trasparenti simili a quelle di una libellula e occhi grandi e scintillanti. Ogni folletto è abbigliato con un’uniforme personalizzabile che varia in base al tipo di lavoro che è stato "programmato" per svolgere.
+#### Repair Pixie
+They excel at repairing objects, such as furniture, weapons, or broken tools.
+They have a tiny magic hammer and wings that emit sparks as they work.
 
+#### Gardener Pixie
+They take care of plants and gardens, pruning, watering, and even talking to plants to encourage their growth.
+They carry a small watering can and green gloves.
 
-#### Folletto Domestico
-Specializzato in pulizie, lavaggio e ordine.
-Può pulire un’intera stanza in pochi minuti usando polvere magica per rimuovere macchie o sporco ostinato.
-Ha una piccola spazzola come coda e un grembiule.
+#### Handyman Pixie
+A combination of the above, but less specialized. Perfect for those who need a hand with everything.
+They have a more robust appearance and a magical backpack from which they extract various tools.
 
-#### Folletto Riparatore
-Eccelle nella riparazione di oggetti, come mobili, armi o utensili rotti.
-Dotato di un minuscolo martello magico e ali che emettono scintille mentre lavora.
+### Imp Characteristics
+- **Longevity** Imps are magically bound to the person who purchases them. They live for about a year before their magic wears off, returning them to their fairy dimension.
+- **Energy** Each imp can work up to 8 hours a day before having to "rest" in a small magical gem provided with the purchase.
+- **Food** They feed on magic dust, which can also be purchased at the stall.
 
-#### Folletto Giardiniere
-Si occupa di piante e giardini, potando, innaffiando e persino parlando alle piante per favorirne la crescita.
-Porta con sé una piccola annaffiatoio e guanti verdi.
+### Personality
+Impels are not only helpful; they are also incredibly talkative and love interacting with their masters. However, they can be a little touchy if treated badly or ignored, refusing to work until they are offered some form of apology or "gift".
 
-#### Folletto Tuttofare
-Una combinazione dei precedenti, ma meno specializzato. Perfetto per chi ha bisogno di una mano in tutto.
-Ha un aspetto più robusto e uno zainetto magico da cui estrae vari strumenti.
+### Game Rules
+A character who purchases a imp must choose the type of work the imp is specialized in. Imps offer significant advantages in non-combat situations, as follows
 
-### Caratteristiche dei Folletti
-- **Longevità** I folletti sono legati magicamente alla persona che li acquista. Vivono circa un anno prima che la loro magia svanisca, tornando alla loro dimensione fatata.
-- **Energia** Ogni folletto può lavorare fino a 8 ore al giorno prima di dover "riposare" in una piccola gemma magica fornita con l’acquisto.
-- **Cibo** Si nutrono di polvere magica, anch’essa acquistabile alla bancarella.
+#### House Imp
+Makes an environment spotlessly clean in 10 minutes.
+Reduces the chance of disease from dirty environments by 50%.
 
-### Personalità
-I folletti non sono solo utili; sono anche incredibilmente loquaci e adorano interagire con i loro padroni. Tuttavia, possono essere un po’ permalosi se trattati male o ignorati, rifiutandosi di lavorare finché non viene offerta loro una qualche forma di scusa o "dono".
- 
-\page
+#### Repair Imp
+Repairs any nonmagical item (up to moderate damage) in 1 hour.
+Can repair a magic item with a DC 15 Arcana test.
 
-### Regole di Gioco
-Un personaggio che acquista un folletto deve scegliere il tipo di lavoro per cui il folletto è specializzato. I folletti offrono vantaggi significativi in situazioni non di combattimento, come segue
+#### Garden Imp
+Increases the yield of a crop by 25% in a week.
+Heals a wilted or dying plant in 1 day.
 
-#### Folletto Domestico
-Rende un ambiente perfettamente pulito in 10 minuti.
-Riduce la possibilità di malattie causate da ambienti sporchi del 50%.
+#### Imp Handyman
+Can perform an unskilled job with an automatic success on Skill rolls up to DC 10.
 
-#### Folletto Riparatore
-Ripara qualsiasi oggetto non magico (fino a danni moderati) in 1 ora.
-Può riparare un oggetto magico con un test di Arcano (DC 15).
+### Cleaning and Maintenance Package
+A player can purchase the cleaning and maintenance package with which the Imp will take care of all the household chores and repairs at costs included in the price by refurbishing the designated building, this has a cost per intervention and in the case of very dirty or ruined buildings or places it will be necessary to carry out several interventions to restore their conditions.
 
-#### Folletto Giardiniere
-Incrementa del 25% la resa di un raccolto in una settimana.
-Guarisce una pianta appassita o in fin di vita in 1 giorno.
+### Cost
+- **Purchase of an Imp** 250 gold coins.
+- **Magic Dust (for 1 month of work)** 50 gold coins.
+- **Magic Gem Maintenance** Every 3 months, the gem must be recharged for 25 gold coins.
+- **Cleaning and Maintenance Package** 10 gold coins per intervention
 
-#### Folletto Tuttofare
-Può svolgere un lavoro non specializzato con un successo automatico su tiri di Abilità fino a DC 10.
+##### What the Imps Say
+The Imps of Folletto are incredibly happy to work for you! They swear by it, with smiles as wide as the sky, and who are we to doubt it? Sure, the magic that binds them to their tasks prevents them from complaining or rebelling... but that's just an irrelevant detail! After all, who wouldn't be thrilled to spend eternity scrubbing floors, repairing chairs, or watering geraniums?
 
-
-### Pacchetto Pulizia e manutenzione
-Un giocatore può acquistare il pacchetto pulizia e manutenzione con il quale la Folletto baderà a tutte le faccende domesti che e di riparazione a costi inclusi nel prezzo rimettendo a nuovo l'edificio designato, questo ha un costo ad intervento ed in caso di edifici o luoghi molto sporchi o rovinati sarà necessario effettuare diversi interventi per ripristinarne le condizioni. 
-
-
-### Costo
-- **Acquisto di un Folletto** 250 monete d’oro.
-- **Polvere Magica (per 1 mese di lavoro)** 50 monete d’oro.
-- **Manutenzione Gemma Magica** Ogni 3 mesi, la gemma deve essere ricaricata per 25 monete d’oro.
-- **Pacchetto Pulizia e manutenzione** 10 monete d'oro a intervento
-
-{{note
-##### Cosa dicono i folletti
-I Folletti della Folletto sono incredibilmente felici di lavorare per voi! Lo giurano, con un sorriso largo come il cielo, e chi siamo noi per dubitarne? Certo, la magia che li lega ai loro compiti impedisce loro di lamentarsi o ribellarsi... ma questo è solo un dettaglio irrilevante! Dopotutto, chi non sarebbe entusiasta di passare l’eternità a pulire pavimenti, riparare sedie o innaffiare gerani?
-
-**nota dell’amministrazione** *qualsiasi accenno a "schiavitù magica" è pura fantasia e non riflette la realtà delle operazioni della Folletto by Worker Inc. Si prega di ignorare eventuali sguardi imploranti o lacrime luccicanti nei loro occhioni. 😇*
-}}
-
-
+**administrative note** *any mention of "magical slavery" is pure fantasy and does not reflect the reality of Folletto by Worker Inc.'s operations. Please ignore any pleading looks or tears shining in their big eyes. 😇*
