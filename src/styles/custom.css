@@ -249,3 +249,12 @@ td{
     border-bottom: none !important;
     padding: 0 0.5rem !important;
 }
+
+.content-panel{
+    border:none !important;
+    padding: 0rem var(--sl-content-pad-x) !important;
+}
+
+.sl-markdown-content :not(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6):not(:where(.not-content *)){
+    margin-top: 0.5rem;
+}
