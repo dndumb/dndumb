@@ -16,7 +16,7 @@ title: Nothingball
 A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of `nothing`.
 
 Each creature in a 9 meters range (30 feet) must make a Wisdom saving throw, on a failure the creature is confused by the fact that a 4th level spell did nothing 
-and is affected by the same effect of a Confusion spell.
+and is affected by the same effect of a *Confusion* spell.
 
 An affected target can't take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.
 

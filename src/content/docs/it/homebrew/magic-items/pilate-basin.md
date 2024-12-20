@@ -1,5 +1,5 @@
 ---
-title: Pontius Pilate's Basin
+title: Bacile di Ponzio Pilato
 ---
 
 *Oggetto Meraviglioso, Artefatto (richiede sintonia)*  
