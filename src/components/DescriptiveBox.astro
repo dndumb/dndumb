@@ -1,0 +1,50 @@
+<style>
+  .descriptiveBox {
+    background: rgba(255,255,255,0.8);
+    padding: 14px;
+    position: relative;
+    border-Left: 2px solid #000;
+    border-right: 2px solid #000;
+  }
+
+.descriptiveBox-topLeftDecoration,
+.descriptiveBox-bottomLeftDecoration,
+.descriptiveBox-topRightDecoration,
+.descriptiveBox-bottomRightDecoration{
+    width: 6px;
+    height: 6px;
+    background: black;
+    position: absolute;
+    border-radius: 3px;
+    margin: 0px !important; 
+}
+
+.descriptiveBox-topLeftDecoration{
+    top: -4px;
+    left: -4px;
+}
+
+.descriptiveBox-bottomLeftDecoration{
+    bottom: -4px;
+    left: -4px;
+}
+
+.descriptiveBox-topRightDecoration{
+    top: -4px;
+    right: -4px;
+}
+
+.descriptiveBox-bottomRightDecoration{
+    bottom: -4px;
+    right: -4px;
+}
+  
+</style>
+
+<div class="descriptiveBox">
+    <slot />
+    <div class="descriptiveBox-topLeftDecoration"></div>
+    <div class="descriptiveBox-bottomLeftDecoration"></div>
+    <div class="descriptiveBox-topRightDecoration"></div>
+    <div class="descriptiveBox-bottomRightDecoration"></div>
+</div>
