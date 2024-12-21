@@ -218,7 +218,7 @@ h1{
     font-family: 'MrEavesRemake' !important;
     color: var(--HB_Color_HeaderText) !important;
     font-weight: normal !important;
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 h2{
     font-family: 'MrEavesRemake' !important;
