@@ -6,8 +6,6 @@ title: Magnete per gatti
 
 I gatti sono inspiegabilmente attratti da te e, ogni volta che ti siedi, un gatto appare per sedersi sulle tue ginocchia.
 
----
-
 ### Benefici
 
 - **Affinità Felina:**  
@@ -21,8 +19,6 @@ I gatti sono inspiegabilmente attratti da te e, ogni volta che ti siedi, un gatt
 
 - **Curiosità:**  
   Una volta per riposo lungo, puoi chiamare un gatto vicino per esplorare un'area per te. Questo gatto ha le statistiche di un gatto comune, può comprendere le tue istruzioni e riferirà ciò che vede entro una distanza di 30 metri.
-
----
 
 ### Svantaggi
 

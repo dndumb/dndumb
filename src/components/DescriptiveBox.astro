@@ -1,0 +1,51 @@
+<style>
+  .descriptiveBox {
+    background: var(--sl-color-gray-7);
+    padding: 14px;
+    position: relative;
+    border-Left: 2px solid var(--sl-color-white);
+    border-right: 2px solid var(--sl-color-white);
+    margin: 3rem;
+  }
+
+.descriptiveBox-topLeftDecoration,
+.descriptiveBox-bottomLeftDecoration,
+.descriptiveBox-topRightDecoration,
+.descriptiveBox-bottomRightDecoration{
+    width: 6px;
+    height: 6px;
+    background: var(--sl-color-white);
+    position: absolute;
+    border-radius: 3px;
+    margin: 0px !important; 
+}
+
+.descriptiveBox-topLeftDecoration{
+    top: -4px;
+    left: -4px;
+}
+
+.descriptiveBox-bottomLeftDecoration{
+    bottom: -4px;
+    left: -4px;
+}
+
+.descriptiveBox-topRightDecoration{
+    top: -4px;
+    right: -4px;
+}
+
+.descriptiveBox-bottomRightDecoration{
+    bottom: -4px;
+    right: -4px;
+}
+  
+</style>
+
+<div class="descriptiveBox">
+    <slot />
+    <div class="descriptiveBox-topLeftDecoration"></div>
+    <div class="descriptiveBox-bottomLeftDecoration"></div>
+    <div class="descriptiveBox-topRightDecoration"></div>
+    <div class="descriptiveBox-bottomRightDecoration"></div>
+</div>
