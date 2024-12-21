@@ -1,12 +1,11 @@
 <style>
     .noteBox {
-        background: var(--HB_Color_Accent);
+        background: #e0e5c1;
         padding: 14px;
         position: relative;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-        border-top: 4px solid var(--sl-color-white);
-        border-bottom: 4px solid var(--sl-color-white);
-        margin: 3rem;
+        border-top: 4px solid #000;
+        border-bottom: 4px solid #000;
     }
 
     .noteBox-topLeftDecoration,
@@ -17,7 +16,7 @@
         height: 8px;
         position: absolute;
         margin: 0px !important;
-        stroke: var(--sl-color-white);
+        stroke: black;
     }
 
     .noteBox-topLeftDecoration {
@@ -45,19 +44,19 @@
     <slot />
 
     <svg class="noteBox-topLeftDecoration" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8">
-        <path d="M15 0 L15 8 L0 8 Z" stroke="black" stroke-width="0" fill="var(--sl-color-white)" />
+        <path d="M15 0 L15 8 L0 8 Z" stroke="black" stroke-width="0" fill="black" />
     </svg>
    
     <svg class="noteBox-topRightDecoration" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8">
-        <path d="M0 8 L0 0 L15 8 Z" stroke="black" stroke-width="0" fill="var(--sl-color-white)" />
+        <path d="M0 8 L0 0 L15 8 Z" stroke="black" stroke-width="0" fill="black" />
     </svg>
     
     <svg class="noteBox-bottomLeftDecoration" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8">
-        <path d="M15 0 L15 8 L0 0 Z" stroke="black" stroke-width="0" fill="var(--sl-color-white)" />
+        <path d="M15 0 L15 8 L0 0 Z" stroke="black" stroke-width="0" fill="black" />
     </svg>
 
     <svg class="noteBox-bottomRightDecoration" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8">
-        <path d="M0 0 L15 0 L0 8 Z" stroke="black" stroke-width="0" fill="var(--sl-color-white)" />
+        <path d="M0 0 L15 0 L0 8 Z" stroke="black" stroke-width="0" fill="black" />
     </svg>
     
     
