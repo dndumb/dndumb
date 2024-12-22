@@ -6,8 +6,6 @@ title: Cat magnet
 
 Cats are inexplicably attracted to you, and whenever you sit down, a cat will always appear to sit on your lap.
 
----
-
 ### Benefits
 
 - **Feline Affinity:**  
@@ -21,8 +19,6 @@ Cats are inexplicably attracted to you, and whenever you sit down, a cat will al
 
 - **Curiosity:**  
   Once per long rest, you can call upon a nearby cat to scout an area for you. This cat has the statistics of a common cat, can understand your instructions, and will report back what it sees within a range of 100 feet.
-
----
 
 ### Drawbacks
 
