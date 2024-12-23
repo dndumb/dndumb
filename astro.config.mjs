@@ -164,52 +164,6 @@ export default defineConfig({
             },
           ],
         },
-        {
-          label: "The Wonders of Wyrmwood",
-          collapsed: true,
-          items: [
-            {
-              label: "The Wonders of Wyrmwood",
-              link: "/the-wonders-of-wyrmwood",
-            },
-            {
-              label: "Feats",
-              autogenerate: {
-                directory: "the-wonders-of-wyrmwood/feats",
-              },
-              translations: {
-                it: "Talenti",
-              },
-            },
-            {
-              label: "Spells",
-              autogenerate: {
-                directory: "the-wonders-of-wyrmwood/spells",
-              },
-              translations: {
-                it: "Incantesimi",
-              },
-            },
-            {
-              label: "Weapons",
-              autogenerate: {
-                directory: "the-wonders-of-wyrmwood/weapons",
-              },
-              translations: {
-                it: "Armi",
-              },
-            },
-            {
-              label: "Magic Items",
-              autogenerate: {
-                directory: "the-wonders-of-wyrmwood/magic-items",
-              },
-              translations: {
-                it: "Oggetti Magici",
-              },
-            },
-          ],
-        },
       ],
     }),
   ],
