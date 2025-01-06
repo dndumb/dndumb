@@ -53,6 +53,15 @@ export default defineConfig({
               },
             },
             {
+              label: "Subclass",
+              autogenerate: {
+                directory: "homebrew/subclass",
+              },
+              translations: {
+                it: "Sottoclassi",
+              },
+            },
+            {
               label: "Weapons",
               autogenerate: {
                 directory: "homebrew/weapons",
