@@ -2,7 +2,7 @@
 title: Fatso
 ---
 
-**Prerequisite:** Your character must weigh at least 180 pounds.
+**Prerequisite:** Your character must weigh at least 250 pounds.
 
 ---
 
