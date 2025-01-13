@@ -31,7 +31,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             {
-              label: "DnDumb Homebrew",
+              label: "Homebrew",
               link: "/homebrew",
             },
             {
@@ -92,10 +92,13 @@ export default defineConfig({
         },
         {
           label: "Homebrew, but NSFW",
+          translations: {
+            it: "Homebrew, ma NSFW",
+          },
           collapsed: true,
           items: [
             {
-              label: "DnDumb Homebrew NSFW",
+              label: "Homebrew NSFW",
               link: "/homebrew-nsfw",
             },
             {
@@ -116,24 +119,37 @@ export default defineConfig({
                 it: "Incantesimi",
               },
             },
-            /*{
-              label: "Weapons",
+          ],
+        },
+        {
+          label: "Homebrew, but for the Current Campaign",
+          translations: {
+            it: "Homebrew, ma per la nostra campagna",
+          },
+          collapsed: true,
+          items: [
+            {
+              label: "Current Campaign Homebrew",
+              link: "/homebrew-cc",
+            },
+            {
+              label: "Items",
               autogenerate: {
-                directory: "homebrew-nsfw/weapons",
+                directory: "homebrew-cc/items",
               },
               translations: {
-                it: "Armi",
+                it: "Oggetti",
               },
-            },*/
-            /*{
+            },
+            {
               label: "Magic Items",
               autogenerate: {
-                directory: "homebrew-nsfw/magic-items",
+                directory: "homebrew-cc/magic-items",
               },
               translations: {
                 it: "Oggetti Magici",
               },
-            },*/
+            },
           ],
         },
       ],
