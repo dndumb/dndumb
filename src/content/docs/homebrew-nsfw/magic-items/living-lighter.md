@@ -12,15 +12,11 @@ Whether you favor relaxing with a pipe or inhaling the aroma of a cigar, this is
 
 It's a small cilinder with a microscopic portal on one of its ends that leads directly into the Elemental Plane of Fire, with a diminutive fairy chained to the front.
 
----
-
 ### Usage
 
 As an action, you can ask the fairy to fart onto the micro-portal, so that their gaseous emissions will be lit to fire. 
 
 The size and intensity of this fire is very limited, so it can be used to set fire to something (like your cigar or tobacco, or if you are a boring person, your campfire), but can't be thrown or used for attacks.
-
----
 
 ### Properties
 
