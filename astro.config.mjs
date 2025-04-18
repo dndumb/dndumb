@@ -111,6 +111,15 @@ export default defineConfig({
               },
             },
             {
+              label: "Magic Items",
+              autogenerate: {
+                directory: "homebrew-nsfw/magic-items",
+              },
+              translations: {
+                it: "Oggetti Magici",
+              },
+            },
+            {
               label: "Spells",
               autogenerate: {
                 directory: "homebrew-nsfw/spells",

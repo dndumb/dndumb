@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "serve": "serve dist"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.30.6",
@@ -15,6 +16,7 @@
     "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "prettier": "^3.4.2"
+    "prettier": "^3.4.2",
+    "serve": "^14.2.4"
   }
 }
