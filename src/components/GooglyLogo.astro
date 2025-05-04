@@ -22,26 +22,27 @@ import { useEffect } from 'astro/jsx-runtime';
     background: white;
     border-radius: 50%;
     overflow: hidden;
+    margin: 0px !important;
   }
 
   .pupil {
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 40%;
+    height: 40%;
     background: black;
     border-radius: 50%;
-    top: 12px;
-    left: 12px;
-    transition: top 0.1s, left 0.1s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* centro base */
   }
 
   .eye.left {
-    top: 17.2%;
-    left: 26.3%;
+    top: 17.4%;
+    left: 26.6%;
   }
 
   .eye.right {
-    top: 13.2%;
+    top: 17.6%;
     left: 37.2%;
   }
 </style>
@@ -90,15 +91,19 @@ function updateEyes() {
     const dx = mouseX - eyeCenterX;
     const dy = mouseY - eyeCenterY;
     const angle = Math.atan2(dy, dx);
-    const x = Math.cos(angle) * maxOffset;
-    const y = Math.sin(angle) * maxOffset;
 
-    pupil.style.left = 12 + x + 'px';
-    pupil.style.top = 12 + y + 'px';
+    // calcola lo spostamento massimo in base alla dimensione dell'occhio
+    const offset = rect.width * 0.25; // 25% del diametro o come preferisci
+    const x = Math.cos(angle) * offset;
+    const y = Math.sin(angle) * offset;
+
+    // applica lo spostamento come trasformazione
+    pupil.style.transform = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`;
   });
 
   requestAnimationFrame(updateEyes);
 }
+
 
 updateEyes();
 
