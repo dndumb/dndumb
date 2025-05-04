@@ -7,6 +7,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "DnDumb",
+      logo: {
+        src: './src/assets/logo-head.svg',
+      },
       social: {
         github: "https://github.com/dndumb",
       },

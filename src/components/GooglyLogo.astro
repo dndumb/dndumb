@@ -1,0 +1,110 @@
+---
+// GooglyLogo.astro
+import { useEffect } from 'astro/jsx-runtime';
+---
+
+<div class="logo-container" id="googly-logo">
+  <div class="eye left"><div class="pupil" id="pupil-left"></div></div>
+  <div class="eye right"><div class="pupil" id="pupil-right"></div></div>
+</div>
+
+<style>
+  .logo-container {
+    position: absolute;
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  .eye {
+    position: absolute;
+    width: 8.75%;
+    height: 8.75%;
+    background: white;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0px !important;
+  }
+
+  .pupil {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background: black;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* centro base */
+  }
+
+  .eye.left {
+    top: 17.4%;
+    left: 26.6%;
+  }
+
+  .eye.right {
+    top: 17.6%;
+    left: 37.2%;
+  }
+</style>
+
+<script type="module">
+  function positionLogo() {
+    const hero = document.querySelector('.hero');
+    const image = hero?.querySelector('img');
+    const logo = document.getElementById('googly-logo');
+
+    if (image && logo) {
+      const rect = image.getBoundingClientRect();
+
+      logo.style.width = `${rect.width}px`;
+      logo.style.height = `${rect.height}px`;
+      logo.style.left = `${rect.left + window.scrollX}px`;
+      logo.style.top = `${rect.top + window.scrollY}px`;
+    }
+  }
+
+  window.addEventListener('load', positionLogo);
+  window.addEventListener('resize', positionLogo);
+</script>
+
+<script>
+const maxOffset = 8;
+let mouseX = 0;
+let mouseY = 0;
+
+document.addEventListener('mousemove', (e) => {
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+});
+
+const pupils = [
+  { eye: document.querySelector('.eye.left'), pupil: document.getElementById('pupil-left') },
+  { eye: document.querySelector('.eye.right'), pupil: document.getElementById('pupil-right') },
+];
+
+function updateEyes() {
+  pupils.forEach(({ eye, pupil }) => {
+    const rect = eye.getBoundingClientRect();
+    const eyeCenterX = rect.left + rect.width / 2;
+    const eyeCenterY = rect.top + rect.height / 2;
+
+    const dx = mouseX - eyeCenterX;
+    const dy = mouseY - eyeCenterY;
+    const angle = Math.atan2(dy, dx);
+
+    // calcola lo spostamento massimo in base alla dimensione dell'occhio
+    const offset = rect.width * 0.25; // 25% del diametro o come preferisci
+    const x = Math.cos(angle) * offset;
+    const y = Math.sin(angle) * offset;
+
+    // applica lo spostamento come trasformazione
+    pupil.style.transform = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`;
+  });
+
+  requestAnimationFrame(updateEyes);
+}
+
+
+updateEyes();
+
+</script>
