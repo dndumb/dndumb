@@ -250,6 +250,10 @@ h5{
     color: #000;
 }
 
+:root[data-theme='dark'] body{
+    background-image: url('/images/darkBackground.jpg');
+}
+
 body{
     font-family: 'BookInsanityRemake';
     text-rendering: optimizeLegibility;
