@@ -8,7 +8,7 @@ export default defineConfig({
     starlight({
       title: "DnDumb",
       logo: {
-        src: './src/assets/logo-head.svg',
+        src: "./src/assets/logo-head.svg",
       },
       social: {
         github: "https://github.com/dndumb",
@@ -129,6 +129,15 @@ export default defineConfig({
               },
               translations: {
                 it: "Incantesimi",
+              },
+            },
+            {
+              label: "Bestiary",
+              autogenerate: {
+                directory: "homebrew-nsfw/bestiary",
+              },
+              translations: {
+                it: "Bestiario",
               },
             },
           ],
