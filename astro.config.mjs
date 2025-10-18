@@ -171,6 +171,15 @@ export default defineConfig({
                 it: "Oggetti Magici",
               },
             },
+            {
+              label: "Game mechanics",
+              autogenerate: {
+                directory: "homebrew-cc/mechanics",
+              },
+              translations: {
+                it: "Meccaniche di gioco",
+              },
+            },
           ],
         },
       ],
