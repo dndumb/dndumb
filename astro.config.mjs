@@ -143,9 +143,9 @@ export default defineConfig({
           ],
         },
         {
-          label: "Homebrew, but for the Current Campaign",
+          label: "Homebrew - Current Campaign",
           translations: {
-            it: "Homebrew, ma per la nostra campagna",
+            it: "Homebrew - Campagna Attiva",
           },
           collapsed: true,
           items: [
@@ -178,6 +178,31 @@ export default defineConfig({
               },
               translations: {
                 it: "Meccaniche di gioco",
+              },
+            },
+          ],
+        },
+        {
+          label: "Homebrew - Basapora Campaign",
+          translations: {
+            it: "Homebrew - Campagna Basapora",
+          },
+          collapsed: true,
+          items: [
+            {
+              label: "Information",
+              link: "/homebrew-basapora",
+              translations: {
+                it: "Informazioni",
+              },
+            },
+            {
+              label: "Magic Items",
+              autogenerate: {
+                directory: "homebrew-basapora/magic-items",
+              },
+              translations: {
+                it: "Oggetti Magici",
               },
             },
           ],

@@ -19,7 +19,7 @@ import GooglyLogo from "../../components/GooglyLogo.astro";
 <br />
 
 <CardGrid stagger>
-  <ActualLinkCard title="Homebrew" icon="pencil" href="/homebrew">
+  <ActualLinkCard title="Homebrew" icon="homebrew" href="/homebrew">
     Some new content for your D&D Sessions, safe for work!
   </ActualLinkCard>
   <ActualLinkCard
@@ -30,9 +30,16 @@ import GooglyLogo from "../../components/GooglyLogo.astro";
     It's still new content, but it might not be suitable for all!
   </ActualLinkCard>
   <ActualLinkCard
-    title="Homebrew, but for the Current Campaign"
-    icon="seti:ignored"
+    title="Homebrew - Current Campaign"
+    icon="puzzle"
     href={"/homebrew-cc"}
+  >
+    This content is used by us in our current campaign, beware of spoilers!
+  </ActualLinkCard>
+  <ActualLinkCard
+    title="Homebrew - Basapora Campaign"
+    icon="puzzle"
+    href={"/homebrew-basapora"}
   >
     This content is used by us in our current campaign, beware of spoilers!
   </ActualLinkCard>
