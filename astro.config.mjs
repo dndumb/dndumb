@@ -180,6 +180,15 @@ export default defineConfig({
                 it: "Meccaniche di gioco",
               },
             },
+            {
+              label: "Weapons",
+              autogenerate: {
+                directory: "homebrew-cc/weapons",
+              },
+              translations: {
+                it: "Armi",
+              },
+            },
           ],
         },
         {
